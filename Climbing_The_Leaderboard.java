@@ -6,7 +6,7 @@ public class test {
         int[] array = IntStream.range(0,n).map(i->scores[n-i-1]).distinct().toArray();
         int index = 0;
         for(int score: alice) {
-            index = Arrays.binarySearch(array, index<0?0:index, array.length, score);
+            index = Arrays.binarySearch(array,score);
             if(index<0) index=-index-2;
             System.out.println(array.length-index);
         }
