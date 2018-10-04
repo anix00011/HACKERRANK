@@ -1,3 +1,4 @@
+//In this problem values are stored as either 1 or 0 for getting values
 #include<iostream>
 #include<cstring>
 using namespace std;
